@@ -1,0 +1,39 @@
+.list {
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.list > li {
+    list-style: none;
+    padding: 10px;
+    outline: 1px solid gray;
+    text-decoration: none;
+}
+
+.list > li:focus {
+    background-color: aquamarine;
+}
+
+.button {
+    background-color: antiquewhite;
+    color: #222;
+    border-color: antiquewhite;
+    border-radius: 8px;
+}
+
+.navlink-text__wrapper {
+    width: auto;
+    height: auto;
+}
+
+.navlink {
+    text-decoration: none;
+}
+
+.navlink:focus {
+    padding: 10px;
+    outline: 1px solid maroon;
+}

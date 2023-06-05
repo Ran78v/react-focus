@@ -1,0 +1,87 @@
+.header {
+    background-color: #eee3cb;
+    padding: 10px 0;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    list-style: none;
+    align-items: center;
+    gap: 40px;
+}
+
+.navlink {
+    text-decoration: none;
+    color: #222;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 38px 23px;
+}
+
+.navlink--active {
+    background-color: #d7c0ae;
+}
+
+.dropdown-section {
+    color: white;
+    background-color: white;
+    z-index: 99;
+    position: absolute;
+    outline: 1px solid gray;
+    margin-top: 1px;
+    border-radius: 8px;
+    width: 164px;
+    transform: translateX(1.3px);
+}
+
+.dropdown-section > ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-left: 0;
+    list-style: none;
+}
+
+.dropdown-section > ul > li {
+    padding: 10px 0;
+    width: 164px;
+}
+
+.dropdown-section > ul > li:first-of-type {
+    border-radius: 8px 8px 0 0;
+}
+
+.dropdown-section > ul > li:last-of-type {
+    border-radius: 0 0 8px 8px;
+}
+
+.dropdown-section > ul > li:hover {
+    background-color: rgba(40, 40, 40, 0.2);
+}
+
+.dropdown-section > ul > li > a {
+    text-decoration: none;
+    color: #222;
+}
+
+.dropdown-navlink:focus {
+    outline: 2px solid #222;
+    border-radius: 8px;
+    padding: 0 8px;
+}
+
+.dropdown-button-toggle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 0 2px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: #222;
+    padding: 13px 23px;
+}
